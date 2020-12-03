@@ -1,0 +1,7 @@
+language: csharp
+solution: PTP1Duplicate.sln
+jobs:
+  include:
+    - dotnet: 2.1.500
+      mono: none
+    - mono: latest
